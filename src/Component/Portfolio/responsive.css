@@ -1,0 +1,328 @@
+@media (max-width: 576px){
+    .portfolio{
+         padding: 15px;
+}
+.hero,
+.about,
+.education,
+.skill,
+.projects,
+.contact{
+    width:100%;
+    padding:25px 18px;
+    margin:0;
+    text-align:left;
+}
+
+     .hero{
+       
+        align-items:center;
+        text-align:center;
+    }
+
+    .hero h1{
+    font-size:38px;
+    line-height:1.2;
+    margin-bottom:12px;
+}
+    
+   .hero h3{
+    font-size:16px;
+    line-height:1.4;
+}
+   .hero p{
+    width:100%;
+    font-size:15px;
+    line-height:1.8;
+    max-width:100%;
+}
+
+    .line{
+        width:100px;
+        margin:18px auto;
+    }
+
+    .about{
+        flex-direction: column;
+        align-items:center;
+        text-align:center;
+       
+    }
+
+    .about-heading{
+        justify-content:center;
+    }
+
+    .about-left p{
+        font-size:16px;
+    }
+
+    .about-right img{
+        width:200px;
+    }
+
+    /* Education */
+
+
+
+    .education-heading{
+        justify-content:center;
+    }
+
+    .education-details{
+        text-align:center;
+    }
+
+    .education-details h3{
+        font-size:22px;
+    }
+
+    .education-details p{
+        font-size:16px;
+    }
+
+    /* Skills */
+
+    .skill-heading{
+        justify-content:center;
+    }
+
+    .skill-container{
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+    }
+
+    .skill-card{
+        height:90px;
+    }
+    .skill-icon{
+    font-size:28px;
+}
+
+    /* Projects */
+
+
+    .project-heading{
+        justify-content:center;
+    }
+
+    .project-container{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .project-card{
+        padding:20px;
+    }
+
+    .project-card h3{
+    font-size:20px;
+}
+
+.project-card p{
+    font-size:14px;
+    line-height:1.6;
+}
+
+    /* Contact */
+
+    .contact-heading{
+        justify-content:center;
+    }
+
+    .contact-container{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .contact-card{
+        min-width:100%;
+        width:100%;
+        justify-content:flex-start;
+    }
+
+    .contact-card p{
+        font-size:14px;
+        word-break:break-word;
+    }
+
+    /* Icons */
+
+    .icon,
+    .icon2,
+    .icon3,
+    .icon5{
+        width:45px;
+        height:45px;
+        font-size:22px;
+    }
+
+    .project-icon{
+        font-size:45px;
+    }
+}
+
+
+
+
+@media (min-width:577px) and (max-width:768px){
+
+.portfolio{
+    padding:20px;
+}
+
+.hero,
+.about,
+.education,
+.skill,
+.projects,
+.contact{
+    width:100%;
+    padding:25px;
+}
+
+.hero{
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:46px;
+}
+
+.hero h3{
+    font-size:20px;
+}
+
+.hero p{
+    width:100%;
+    font-size:18px;
+}
+
+.line{
+    margin:auto;
+    margin-bottom:20px;
+}
+
+.about{
+    flex-direction:column;
+}
+
+.about-heading,
+.education-heading,
+.skill-heading,
+.project-heading,
+.contact-heading{
+    justify-content:center;
+}
+
+.about-left,
+.education-left,
+.skill-left{
+    text-align:center;
+}
+
+.about-left p,
+.education-details p{
+    font-size:18px;
+}
+
+.about-right img{
+    width:220px;
+}
+
+.education-details h3{
+    font-size:24px;
+}
+
+.skill-container{
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.skill-card{
+    height:100px;
+}
+
+.skill-icon{
+    font-size:30px;
+}
+
+.project-container{
+    grid-template-columns:1fr;
+}
+
+.project-card{
+    padding:25px;
+}
+
+.contact-container{
+    flex-direction:column;
+}
+
+.contact-card{
+    min-width:100%;
+}
+}
+
+@media(min-width:767px) and (max-width:1024px){
+
+.hero,
+.about,
+.education,
+.skill,
+.projects,
+.contact{
+    width:95%;
+    padding:30px;
+}
+
+.hero h1{
+    font-size:58px;
+}
+
+.hero h3{
+    font-size:26px;
+}
+
+.hero p{
+    width:100%;
+    font-size:20px;
+}
+
+.about{
+    flex-direction:column;
+    text-align:center;
+}
+
+.about-heading{
+    justify-content:center;
+}
+
+.about-right img{
+    width:260px;
+}
+
+.skill-container{
+    grid-template-columns:repeat(3,1fr);
+}
+
+.project-container{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.contact-container{
+    flex-direction:column;
+}
+
+.contact-card{
+    min-width:100%;
+}
+
+
+.contact-card p{
+    color:white;
+}
+}
+
+
