@@ -13,7 +13,7 @@ import { FaPython } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
-import { DiVisualstudio} from "react-icons/di";
+import { VscVscode } from "react-icons/vsc";
 import {
   FaFolderOpen,
   FaClipboardList,
@@ -24,7 +24,7 @@ import {
   FaMoneyBillWave,
 } from "react-icons/fa";
 
-import { RiContactsBook3Fill } from "react-icons/ri";
+import { FaAddressBook } from "react-icons/fa";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const Portfolio = () => {
@@ -119,7 +119,7 @@ const Portfolio = () => {
                         <span>CSS</span>
                     </div>
                     <div className="skill-card">
-                       < IoLogoJavascript className="skill-icon Js " />
+                       < IoLogoJavascript className="skill-icon js " />
                         <span>JavaScript</span>
                     </div>
                     <div className="skill-card">
@@ -127,7 +127,7 @@ const Portfolio = () => {
                         <span>React</span>
                     </div>
                     <div className="skill-card">
-                       <FaJava  className="skill-icon Java" />
+                       <FaJava  className="skill-icon java" />
                         <span>Java</span>
                     </div>
                     <div className="skill-card">
@@ -147,79 +147,82 @@ const Portfolio = () => {
                        <span>SQL</span>
                     </div>
                       <div className="skill-card">
-                       <DiVisualstudio className="skill-icon vscode" />
+                       <VscVscode className="skill-icon vscode" />
                        <span>VS Code</span>
                     </div>
 
                 </div>
         </div>
         </section>
-      
 
         <section className="projects">
 
-  <div className="project-heading">
-    <FaFolderOpen className="icon4" />
-    <h2>PROJECTS</h2>
-  </div>
-
-  <div className="project-container">
-
-    <div className="project-card">
-      <FaClipboardList className="project-icon" />
-      <h3>To-Do List</h3>
-      <p>
-        A simple and efficient To-Do List application built using React for task management.
-      </p>
+    <div className="project-heading">
+        <FaFolderOpen className="icon4" />
+        <h2>PROJECTS</h2>
     </div>
 
-    <div className="project-card">
-      <FaHandRock className="project-icon" />
-      <h3>Rock Paper Scissors</h3>
-      <p>
-        An interactive React game where users compete against the computer.
-      </p>
+    <div className="project-container">
+
+        <div className="project-card">
+            <FaClipboardList className="project-icon" />
+            <h3>To-Do List</h3>
+            <p>
+                A simple and efficient To-Do List application built using React for task management.
+            </p>
+        </div>
+
+        <div className="project-card">
+            <FaHandRock className="project-icon" />
+            <h3>Rock Paper Scissors</h3>
+            <p>
+                An interactive React game where users compete against the computer.
+            </p>
+        </div>
+
+        <div className="project-card">
+            <FaAmazon className="project-icon" />
+            <h3>Amazon Clone</h3>
+            <p>
+                A responsive Amazon homepage clone created using HTML and CSS.
+            </p>
+        </div>
+
+        <div className="project-card">
+            <FaShoppingCart className="project-icon" />
+            <h3>Flipkart Clone</h3>
+            <p>
+                A responsive Flipkart homepage developed with HTML, CSS and JavaScript.
+            </p>
+        </div>
+
+        <div className="project-card">
+            <FaGamepad className="project-icon" />
+            <h3>Tic Tac Toe</h3>
+            <p>
+                A classic Tic Tac Toe game built using React with interactive gameplay.
+            </p>
+        </div>
+
+        <div className="project-card">
+            <FaMoneyBillWave className="project-icon" />
+            <h3>Currency Converter</h3>
+            <p>
+                A currency converter using HTML, CSS and JavaScript with real-time conversion.
+            </p>
+        </div>
+
     </div>
 
-    <div className="project-card">
-      <FaAmazon className="project-icon" />
-      <h3>Amazon Clone</h3>
-      <p>
-        A responsive Amazon homepage clone created using HTML and CSS.
-      </p>
-    </div>
+       </section>
 
-    <div className="project-card">
-      <FaShoppingCart className="project-icon" />
-      <h3>Flipkart Clone</h3>
-      <p>
-        A responsive Flipkart homepage developed with HTML, CSS and JavaScript.
-      </p>
-    </div>
 
-    <div className="project-card">
-      <FaGamepad className="project-icon" />
-      <h3>Tic Tac Toe</h3>
-      <p>
-        A classic Tic Tac Toe game built using React with interactive gameplay.
-      </p>
-    </div>
+{/* Contact Section */}
 
-    <div className="project-card">
-      <FaMoneyBillWave className="project-icon" />
-      <h3>Currency Converter</h3>
-      <p>
-        A currency converter using HTML, CSS and JavaScript with real-time conversion.
-      </p>
-    </div>
+      <section className="contact">
 
-  </div>
-
-</section>
-<section className="contact">
-
-     <div className="contact-heading">
-        <RiContactsBook3Fill className="icon5"/>
+    <div className="contact-heading">
+        <FaAddressBook className="icon5"/>
         <h2>CONTACT</h2>
     </div>
 
@@ -239,6 +242,7 @@ const Portfolio = () => {
             <FaPhoneAlt className="contact-icon"/>
             <p>+91-7908473069</p>
         </div>
+
     </div>
 
 </section>
