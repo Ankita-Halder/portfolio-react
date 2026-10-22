@@ -458,7 +458,7 @@ body {
 .skill-container {
     display: grid;
 
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 
     gap: 20px;
 
@@ -650,6 +650,11 @@ body {
     color: #cbd5e1;
 
     line-height: 2;
+}
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 
